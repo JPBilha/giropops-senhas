@@ -14,7 +14,7 @@ RUN apt-get update \
 
 ENV REDIS_HOST=localhost
 
-EXPOSE 80
+EXPOSE 5000
 
 COPY start.sh /app/giropops-senhas/start.sh
 
