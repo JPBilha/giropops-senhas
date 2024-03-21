@@ -10,7 +10,7 @@ RUN apt-get update \
     && apt-get install -y python3-pip \
     && pip install --no-cache-dir -r requirements.txt \
     && apt-get install -y net-tools \
-    && apt-get install -y redis-server  # Instalação do Redis
+    && apt-get install -y redis-server
 
 ENV REDIS_HOST=localhost
 
